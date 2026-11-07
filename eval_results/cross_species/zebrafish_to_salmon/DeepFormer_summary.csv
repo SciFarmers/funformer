@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepFormer,zebrafish,salmon,6,0.820895233002418,0.821875970270382,0.03492199163267467,0.09930724568056742,0.03569110368532933

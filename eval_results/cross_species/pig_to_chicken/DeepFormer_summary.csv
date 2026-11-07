@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepFormer,pig,chicken,40,0.7927781485446381,0.7840271827555594,0.06641863241578924,0.39709141196241293,0.14060300161768174

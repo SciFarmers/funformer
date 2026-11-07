@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+FunFormer_1k,pig,cattle,40,0.8538165705097747,0.8793974547542773,0.09973327530974668,0.32241211658178237,0.2051956220255439

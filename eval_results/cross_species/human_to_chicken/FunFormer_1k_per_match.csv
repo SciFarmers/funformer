@@ -1,0 +1,15 @@
+model,source_species,target_species,assay,tissue,n_pairs,auroc,auprc
+FunFormer_1k,human,chicken,ATAC,Adipose,2,0.8833603800829759,0.3582789926774762
+FunFormer_1k,human,chicken,ATAC,Liver,2,0.8376950268672178,0.4097232181024059
+FunFormer_1k,human,chicken,ATAC,Muscle,8,0.8894627687594887,0.4100490059390955
+FunFormer_1k,human,chicken,ATAC,Spleen,2,0.8460493652106347,0.48053872150549126
+FunFormer_1k,human,chicken,H3K27ac,Liver,2,0.766558762306353,0.3069522356555001
+FunFormer_1k,human,chicken,H3K27ac,Muscle,6,0.8093975210625924,0.380109086704188
+FunFormer_1k,human,chicken,H3K27ac,Spleen,8,0.8234935352057797,0.34702651729438544
+FunFormer_1k,human,chicken,H3K27me3,Muscle,4,0.7717223680744394,0.2852744746014125
+FunFormer_1k,human,chicken,H3K27me3,Spleen,8,0.7152848006634036,0.31881841697794056
+FunFormer_1k,human,chicken,H3K4me1,Muscle,4,0.7137846652081983,0.17087771082681608
+FunFormer_1k,human,chicken,H3K4me1,Spleen,8,0.779784863977619,0.15486298961675232
+FunFormer_1k,human,chicken,H3K4me3,Liver,2,0.8560597041428277,0.577179783502445
+FunFormer_1k,human,chicken,H3K4me3,Muscle,6,0.9338951627336017,0.6339598202816868
+FunFormer_1k,human,chicken,H3K4me3,Spleen,8,0.9473848141182777,0.66562985320089

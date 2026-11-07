@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA,human,chicken,14,0.816446995640203,0.8096275938695161,0.07266145391741409,0.36454720101035326,0.14958555078322858

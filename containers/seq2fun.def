@@ -1,0 +1,44 @@
+Bootstrap: docker
+From: mambaorg/micromamba:latest
+
+%labels
+    Author seq2fun
+    Version 1.0
+    Description seq2fun: micromamba base + PyTorch 2.8.0 CUDA 12.9
+
+%environment
+    export PATH=/opt/conda/bin:$PATH
+    export CONDA_DEFAULT_ENV=base
+    export MAMBA_ROOT_PREFIX=/opt/conda
+    export LD_LIBRARY_PATH=/opt/conda/lib:$LD_LIBRARY_PATH
+    export PYTHONNOUSERSITE=1
+
+%post
+    micromamba install -y -n base -c pytorch -c nvidia -c conda-forge -c bioconda \
+        python=3.13 \
+        samtools \
+        bcftools \
+        bedtools 
+
+    micromamba clean --all --yes
+
+    # PyTorch via pip with explicit CUDA 12.9 wheel
+    /opt/conda/bin/pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 \
+        --index-url https://download.pytorch.org/whl/cu129
+
+    # Remaining PyPI packages
+    /opt/conda/bin/pip install \
+        transformers==5.3.0 \
+        accelerate==1.13.0 \
+        scikit-learn==1.8.0 \
+        zarr==3.1.5 \
+        "python-dotenv>=1.0.0" \
+        pysam \
+        jupyterlab \
+        wandb \
+        datasets \
+        fire \
+        tqdm
+
+%runscript
+    exec python "$@"

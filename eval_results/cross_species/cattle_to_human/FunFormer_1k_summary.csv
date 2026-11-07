@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+FunFormer_1k,cattle,human,14,0.8672793250635017,0.8862894132256633,0.06381972520045874,0.22923016921306036,0.1017546755902247

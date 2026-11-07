@@ -1,0 +1,7 @@
+model,source_species,target_species,assay,tissue,n_pairs,auroc,auprc
+FunFormer_20k,salmon,zebrafish,ATAC,Liver,12,0.8043828686696797,
+FunFormer_20k,salmon,zebrafish,ATAC,Muscle,12,0.8028447352966636,
+FunFormer_20k,salmon,zebrafish,H3K27ac,Liver,8,0.7855270271247541,
+FunFormer_20k,salmon,zebrafish,H3K27ac,Muscle,8,0.7846200757985141,
+FunFormer_20k,salmon,zebrafish,H3K4me3,Liver,8,0.8885716286180452,
+FunFormer_20k,salmon,zebrafish,H3K4me3,Muscle,8,0.8986559970373578,

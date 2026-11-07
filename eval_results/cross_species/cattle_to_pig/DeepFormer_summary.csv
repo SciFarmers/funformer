@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepFormer,cattle,pig,40,0.8553912705776309,0.8451945712635922,0.06591511600513411,0.31207277629680163,0.16663550818152995

@@ -1,0 +1,2 @@
+exp_name,n_tracks_eval,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA_cattle_5e-5_1000,95,0.9243806292640285,0.9271413614987672,0.0615002533630486,0.459069784758597,0.22161682368227945

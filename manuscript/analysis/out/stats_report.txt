@@ -1,0 +1,99 @@
+
+============================================================
+PRIMARY, architecture-matched (all-assay): FF-20k vs FF-1k  (margin column: margin_arch_all, n=23)
+============================================================
+Pearson r(margin, divergence) = -0.764   perm p = 0.00005
+Jonckheere-Terpstra (decreasing trend): J=2.0  perm p = 0.00000
+mammal-mammal > tetrapod-fish: diff=+11.17pp  perm p = 0.00003
+  [species-level exact test, all 720 relabellings -- the valid unit of replication]
+    Pearson r                     = -0.764   exact p = 0.0167
+    Jonckheere-Terpstra  J=2.0          exact p = 0.0167
+    mammal-mammal > tetrapod-fish        exact p = 0.0167
+
+============================================================
+PRIMARY, architecture-matched (excl-ATAC): FF-20k vs FF-1k  (margin column: margin_arch_noatac, n=23)
+============================================================
+Pearson r(margin, divergence) = -0.798   perm p = 0.00001
+Jonckheere-Terpstra (decreasing trend): J=3.0  perm p = 0.00000
+mammal-mammal > tetrapod-fish: diff=+12.09pp  perm p = 0.00003
+  [species-level exact test, all 720 relabellings -- the valid unit of replication]
+    Pearson r                     = -0.798   exact p = 0.0167
+    Jonckheere-Terpstra  J=3.0          exact p = 0.0167
+    mammal-mammal > tetrapod-fish        exact p = 0.0167
+
+============================================================
+STRICTEST (all-assay): FF-20k vs best of four 1 kb models  (margin column: margin_best1kb_all, n=23)
+============================================================
+Pearson r(margin, divergence) = -0.758   perm p = 0.00005
+Jonckheere-Terpstra (decreasing trend): J=3.0  perm p = 0.00000
+mammal-mammal > tetrapod-fish: diff=+11.19pp  perm p = 0.00003
+  [species-level exact test, all 720 relabellings -- the valid unit of replication]
+    Pearson r                     = -0.758   exact p = 0.0167
+    Jonckheere-Terpstra  J=3.0          exact p = 0.0167
+    mammal-mammal > tetrapod-fish        exact p = 0.0167
+
+============================================================
+AS PUBLISHED (all-assay): FF-20k vs best CNN baseline  (margin column: margin_all, n=23)
+============================================================
+Pearson r(margin, divergence) = -0.723   perm p = 0.00014
+Jonckheere-Terpstra (decreasing trend): J=8.0  perm p = 0.00000
+mammal-mammal > tetrapod-fish: diff=+10.63pp  perm p = 0.00012
+  [species-level exact test, all 720 relabellings -- the valid unit of replication]
+    Pearson r                     = -0.723   exact p = 0.0167
+    Jonckheere-Terpstra  J=8.0          exact p = 0.0167
+    mammal-mammal > tetrapod-fish        exact p = 0.0167
+
+============================================================
+AS PUBLISHED (excl-ATAC): FF-20k vs best CNN baseline  (margin column: margin_noatac, n=23)
+============================================================
+Pearson r(margin, divergence) = -0.762   perm p = 0.00003
+Jonckheere-Terpstra (decreasing trend): J=9.0  perm p = 0.00000
+mammal-mammal > tetrapod-fish: diff=+12.28pp  perm p = 0.00010
+  [species-level exact test, all 720 relabellings -- the valid unit of replication]
+    Pearson r                     = -0.762   exact p = 0.0167
+    Jonckheere-Terpstra  J=9.0          exact p = 0.0167
+    mammal-mammal > tetrapod-fish        exact p = 0.0167
+
+============================================================
+SENSITIVITY excl salmon->chicken (arch-matched, all-assay)  (margin column: margin_arch_all, n=22)
+============================================================
+Pearson r(margin, divergence) = -0.805   perm p = 0.00000
+Jonckheere-Terpstra (decreasing trend): J=0.0  perm p = 0.00000
+mammal-mammal > tetrapod-fish: diff=+11.82pp  perm p = 0.00005
+  [species-level exact test, all 720 relabellings -- the valid unit of replication]
+    Pearson r                     = -0.805   exact p = 0.0167
+    Jonckheere-Terpstra  J=0.0          exact p = 0.0167
+    mammal-mammal > tetrapod-fish        exact p = 0.0167
+
+============================================================
+SENSITIVITY excl salmon->chicken (arch-matched, excl-ATAC)  (margin column: margin_arch_noatac, n=22)
+============================================================
+Pearson r(margin, divergence) = -0.847   perm p = 0.00000
+Jonckheere-Terpstra (decreasing trend): J=1.0  perm p = 0.00000
+mammal-mammal > tetrapod-fish: diff=+12.84pp  perm p = 0.00005
+  [species-level exact test, all 720 relabellings -- the valid unit of replication]
+    Pearson r                     = -0.847   exact p = 0.0167
+    Jonckheere-Terpstra  J=1.0          exact p = 0.0167
+    mammal-mammal > tetrapod-fish        exact p = 0.0167
+
+============================================================
+SENSITIVITY excl salmon->chicken (as published, all-assay)  (margin column: margin_all, n=22)
+============================================================
+Pearson r(margin, divergence) = -0.792   perm p = 0.00001
+Jonckheere-Terpstra (decreasing trend): J=1.0  perm p = 0.00000
+mammal-mammal > tetrapod-fish: diff=+11.47pp  perm p = 0.00005
+  [species-level exact test, all 720 relabellings -- the valid unit of replication]
+    Pearson r                     = -0.792   exact p = 0.0167
+    Jonckheere-Terpstra  J=1.0          exact p = 0.0167
+    mammal-mammal > tetrapod-fish        exact p = 0.0167
+
+============================================================
+SENSITIVITY excl salmon->chicken (as published, excl-ATAC)  (margin column: margin_noatac, n=22)
+============================================================
+Pearson r(margin, divergence) = -0.833   perm p = 0.00000
+Jonckheere-Terpstra (decreasing trend): J=3.0  perm p = 0.00001
+mammal-mammal > tetrapod-fish: diff=+13.22pp  perm p = 0.00005
+  [species-level exact test, all 720 relabellings -- the valid unit of replication]
+    Pearson r                     = -0.833   exact p = 0.0167
+    Jonckheere-Terpstra  J=3.0          exact p = 0.0167
+    mammal-mammal > tetrapod-fish        exact p = 0.0167

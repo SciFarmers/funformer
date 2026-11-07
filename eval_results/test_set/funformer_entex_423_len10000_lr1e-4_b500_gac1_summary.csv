@@ -1,0 +1,2 @@
+exp_name,n_tracks_eval,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+funformer_entex_423_len10000_lr1e-4_b500_gac1,419,0.9592415673349529,0.972137902024936,0.058320424350306904,0.3888058822504107,0.18205676592542216

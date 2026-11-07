@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepATT,zebrafish,cattle,9,0.6178856106149767,0.6659171261972685,0.1385195328766347,0.061146818373132183,0.04059821598937849

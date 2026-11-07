@@ -1,0 +1,10 @@
+model,source_species,target_species,assay,tissue,n_pairs,auroc,auprc
+DeepSEA,pig,zebrafish,ATAC,Liver,2,0.728968301453973,
+DeepSEA,pig,zebrafish,ATAC,Muscle,2,0.7762900344379733,
+DeepSEA,pig,zebrafish,ATAC,Spleen,2,0.7665648930057036,
+DeepSEA,pig,zebrafish,H3K27ac,Liver,2,0.642290891899162,
+DeepSEA,pig,zebrafish,H3K27ac,Muscle,2,0.6774099183449569,
+DeepSEA,pig,zebrafish,H3K27ac,Spleen,2,0.7016541688683466,
+DeepSEA,pig,zebrafish,H3K4me3,Liver,2,0.7376450924824225,
+DeepSEA,pig,zebrafish,H3K4me3,Muscle,2,0.751731198883377,
+DeepSEA,pig,zebrafish,H3K4me3,Spleen,2,0.7391033197173706,

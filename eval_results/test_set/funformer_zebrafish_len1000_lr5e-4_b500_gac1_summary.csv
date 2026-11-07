@@ -1,0 +1,2 @@
+exp_name,n_tracks_eval,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+funformer_zebrafish_len1000_lr5e-4_b500_gac1,37,0.9294570930392554,0.9338548900037957,0.03175109185097017,0.5301532589419462,0.12079219540064362

@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepFormer,cattle,zebrafish,9,0.731831843617147,0.7478019031424359,0.04227187711962158,0.06003934420233224,0.01938695483217973

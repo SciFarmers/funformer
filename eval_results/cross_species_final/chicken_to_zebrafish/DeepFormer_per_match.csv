@@ -1,0 +1,10 @@
+model,source_species,target_species,assay,tissue,n_pairs,auroc,auprc
+DeepFormer,chicken,zebrafish,ATAC,Liver,2,0.7855499140394357,
+DeepFormer,chicken,zebrafish,ATAC,Muscle,2,0.7408928210637942,
+DeepFormer,chicken,zebrafish,ATAC,Spleen,2,0.7706491242113771,
+DeepFormer,chicken,zebrafish,H3K27ac,Liver,2,0.6994185927461037,
+DeepFormer,chicken,zebrafish,H3K27ac,Muscle,2,0.6867733028291815,
+DeepFormer,chicken,zebrafish,H3K27ac,Spleen,2,0.7257966286215045,
+DeepFormer,chicken,zebrafish,H3K4me3,Liver,2,0.7605805603838363,
+DeepFormer,chicken,zebrafish,H3K4me3,Muscle,2,0.7712834363649155,
+DeepFormer,chicken,zebrafish,H3K4me3,Spleen,2,0.7626761366436545,

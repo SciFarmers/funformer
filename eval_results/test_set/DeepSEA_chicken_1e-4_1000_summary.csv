@@ -1,0 +1,2 @@
+exp_name,n_tracks_eval,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA_chicken_1e-4_1000,97,0.8475336844280746,0.8362449032370853,0.07992476826267876,0.5000911701469869,0.1651159476313722

@@ -1,0 +1,9 @@
+model,source_species,target_species,assay,tissue,n_pairs,auroc,auprc
+DeepSEA,human,salmon,ATAC,Liver,12,0.781341883280747,
+DeepSEA,human,salmon,ATAC,Muscle,48,0.7274104249127964,
+DeepSEA,human,salmon,H3K27ac,Liver,8,0.7182163262049583,
+DeepSEA,human,salmon,H3K27ac,Muscle,24,0.6569237788049714,
+DeepSEA,human,salmon,H3K27me3,Muscle,4,0.718473643898766,
+DeepSEA,human,salmon,H3K4me1,Muscle,16,0.6347865693413994,
+DeepSEA,human,salmon,H3K4me3,Liver,8,0.7968820383055202,
+DeepSEA,human,salmon,H3K4me3,Muscle,24,0.7897444956594858,

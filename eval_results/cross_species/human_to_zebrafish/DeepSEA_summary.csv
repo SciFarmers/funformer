@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA,human,zebrafish,9,0.7488008271948166,0.7669118836632927,0.03780490003936137,0.061843732081644794,0.01994353090310986

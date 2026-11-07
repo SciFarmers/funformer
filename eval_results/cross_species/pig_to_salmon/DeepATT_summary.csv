@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepATT,pig,salmon,10,0.6961323286645008,0.710097841894439,0.07406953449733793,0.016625254712006945,0.010547304579277501

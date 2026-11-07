@@ -1,0 +1,2 @@
+exp_name,n_tracks_eval,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepATT_cattle_5e-4_1000,95,0.9283608710279085,0.929491499858744,0.05956465959243484,0.47990236356375815,0.22367989625129372

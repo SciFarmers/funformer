@@ -1,0 +1,2 @@
+exp_name,n_tracks_eval,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA_zebrafish_5e-5_1000,37,0.9046386025229436,0.90986996865267,0.03765172503485858,0.42613832410780783,0.11598459018761341

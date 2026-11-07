@@ -1,0 +1,2 @@
+exp_name,n_tracks_eval,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepATT_salmon_5e-4_1000,297,0.9196899081754419,0.9355200788672764,0.071312746655675,0.2750619031801984,0.23153827926684536

@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepATT,cattle,chicken,40,0.7838301892582561,0.7739129888380464,0.07807705806662162,0.38979852155684747,0.1529716903719713

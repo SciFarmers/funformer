@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA,chicken,salmon,10,0.6585674322459327,0.6712224762015607,0.07220766161990923,0.014235990258003062,0.008856348300269662

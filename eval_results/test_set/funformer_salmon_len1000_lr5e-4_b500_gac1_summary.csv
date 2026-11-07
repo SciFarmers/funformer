@@ -1,0 +1,2 @@
+exp_name,n_tracks_eval,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+funformer_salmon_len1000_lr5e-4_b500_gac1,297,0.9109292625201753,0.9353427368108989,0.09777890147898034,0.27436602661172965,0.23289264245280603

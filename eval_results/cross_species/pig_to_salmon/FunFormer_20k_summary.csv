@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+FunFormer_20k,pig,salmon,10,0.5835119795331651,0.62141562482449,0.10416735869669186,0.01122356354595371,0.006847399692038989

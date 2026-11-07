@@ -1,0 +1,2 @@
+exp_name,n_tracks_eval,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepFormer_chicken_5e-4_1000,97,0.8649034350131348,0.8715968031844659,0.07784581433046099,0.5345982902814672,0.16923226569483557

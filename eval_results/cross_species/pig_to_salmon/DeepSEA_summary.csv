@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA,pig,salmon,10,0.682930772992442,0.6982565438403048,0.08216276930157983,0.01514419983508202,0.009555009905990643

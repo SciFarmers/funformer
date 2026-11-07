@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA,human,salmon,8,0.7273692827126166,0.7228312850523411,0.056391823644620594,0.020672133898586707,0.011534771012650791

@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepATT,pig,human,14,0.8707811728282892,0.9009608548894872,0.05933772047337192,0.23758280179404911,0.0962518772444519

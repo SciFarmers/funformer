@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepFormer,cattle,salmon,10,0.6876658606300963,0.7099740426729673,0.07843494283170228,0.017022167825421125,0.011814574436711998

@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA,pig,zebrafish,9,0.7246043920059007,0.7376413291542605,0.04093267803867677,0.055276053923703064,0.021002621007795125

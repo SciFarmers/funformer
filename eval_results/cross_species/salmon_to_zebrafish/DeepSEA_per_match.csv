@@ -1,0 +1,7 @@
+model,source_species,target_species,assay,tissue,n_pairs,auroc,auprc
+DeepSEA,salmon,zebrafish,ATAC,Liver,12,0.7849914736188827,0.10190189870490801
+DeepSEA,salmon,zebrafish,ATAC,Muscle,12,0.7861952272631725,0.10226775459419002
+DeepSEA,salmon,zebrafish,H3K27ac,Liver,8,0.6898546836016014,0.08230414669371497
+DeepSEA,salmon,zebrafish,H3K27ac,Muscle,8,0.7051223341041899,0.08163879993816499
+DeepSEA,salmon,zebrafish,H3K4me3,Liver,8,0.8325217067352517,0.1560464172846791
+DeepSEA,salmon,zebrafish,H3K4me3,Muscle,8,0.8451690302907019,0.1592420625658926

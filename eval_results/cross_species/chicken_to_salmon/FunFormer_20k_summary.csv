@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+FunFormer_20k,chicken,salmon,10,0.5565716557391359,0.572141662464104,0.05025575589957884,0.00895820100625623,0.005038126276863048

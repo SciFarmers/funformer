@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA,human,cattle,14,0.8675449675051966,0.85937647917597,0.06428022500432376,0.33540268760590414,0.18319733249376732

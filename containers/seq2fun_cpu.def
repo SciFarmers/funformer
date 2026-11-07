@@ -1,0 +1,73 @@
+Bootstrap: docker
+From: python:3.13-slim
+
+%labels
+    Author seq2fun
+    Version 1.1
+    Description seq2fun CPU (x86_64): PyTorch 2.8.0 CPU build, same stack as seq2fun.sif
+
+%help
+    The x86_64 companion to seq2fun.sif, which is arm64 and runs only on the
+    gh200 GPU nodes. This one runs on the login node and the CPU partitions,
+    so model code and analysis code can be exercised without a GPU
+    allocation.
+
+    Library versions are pinned to the GPU image so behaviour matches; only
+    the torch wheel differs (CPU instead of CUDA 12.9). It also carries the
+    analysis stack the bare CPU nodes lack -- scikit-learn above all, which
+    is why AUROC has had to be hand-rolled as a rank statistic.
+
+        apptainer exec --bind /cluster:/cluster seq2fun_cpu.sif python my_analysis.py
+
+    Unlike seq2fun.def this image is pip-only, with no conda layer. micromamba
+    segfaults during solve under the emulated fakeroot these nodes build with
+    (semop: Invalid argument), and the conda-only tools it supplied --
+    samtools, bcftools, bedtools -- are never invoked by this project, which
+    reads FASTA through pysam.
+
+%environment
+    export PYTHONNOUSERSITE=1
+    export MPLBACKEND=Agg
+
+%post
+    set -eux
+    pip install --no-cache-dir --upgrade pip
+
+    # CPU wheel. Same torch version as the GPU image so the model code behaves
+    # identically; torchvision and torchaudio are left out, nothing imports them.
+    pip install --no-cache-dir torch==2.8.0 \
+        --index-url https://download.pytorch.org/whl/cpu
+
+    # Versions pinned to seq2fun.def where that file pins them.
+    pip install --no-cache-dir \
+        transformers==5.3.0 \
+        accelerate==1.13.0 \
+        scikit-learn==1.8.0 \
+        zarr==3.1.5 \
+        "python-dotenv>=1.0.0" \
+        pysam \
+        wandb \
+        datasets \
+        fire \
+        tqdm \
+        scipy \
+        matplotlib \
+        pandas \
+        pyarrow \
+        joblib \
+        pytest
+
+%test
+    # A failing %test marks the build failed, so these are the properties the
+    # image is useless without rather than a broad smoke test.
+    python -c "import platform; assert platform.machine()=='x86_64', platform.machine()"
+    python -c "import torch; print('torch', torch.__version__); assert not torch.cuda.is_available()"
+    python -c "import sklearn, scipy, pandas, numpy, pyarrow, matplotlib, datasets, pysam, transformers, pytest; print('imports ok')"
+    python - <<'PY'
+import torch, torch.nn.functional as F
+# the N encoding the project depends on: index 0 is N and must carry no channel
+x = F.one_hot(torch.tensor([[0, 1, 2, 3, 4]]).long(), 5).float()[..., 1:]
+assert x[0, 0].sum() == 0, x[0, 0]
+assert x[0, 1].tolist() == [1, 0, 0, 0]
+print("tokens_to_onehot semantics ok")
+PY

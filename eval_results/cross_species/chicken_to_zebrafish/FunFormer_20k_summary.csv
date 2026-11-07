@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+FunFormer_20k,chicken,zebrafish,9,0.6370656942175283,0.6315043935075335,0.021221536149351437,0.04466870283147727,0.016202416714024614

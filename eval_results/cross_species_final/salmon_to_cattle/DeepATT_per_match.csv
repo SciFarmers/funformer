@@ -1,0 +1,11 @@
+model,source_species,target_species,assay,tissue,n_pairs,auroc,auprc
+DeepATT,salmon,cattle,ATAC,Liver,24,0.8127646046264226,
+DeepATT,salmon,cattle,ATAC,Muscle,24,0.8535549785211641,
+DeepATT,salmon,cattle,H3K27ac,Liver,16,0.6337225290687221,
+DeepATT,salmon,cattle,H3K27ac,Muscle,16,0.5554037457011564,
+DeepATT,salmon,cattle,H3K27me3,Liver,16,0.6324214779038927,
+DeepATT,salmon,cattle,H3K27me3,Muscle,16,0.809972516101234,
+DeepATT,salmon,cattle,H3K4me1,Liver,16,0.6789210736187887,
+DeepATT,salmon,cattle,H3K4me1,Muscle,16,0.5538730826533589,
+DeepATT,salmon,cattle,H3K4me3,Liver,16,0.5509449274937985,
+DeepATT,salmon,cattle,H3K4me3,Muscle,16,0.6507792322710575,

@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+FunFormer_20k,human,salmon,8,0.695194160496573,0.6955167235152306,0.029539025430189027,0.02055669106525309,0.009640026018613659

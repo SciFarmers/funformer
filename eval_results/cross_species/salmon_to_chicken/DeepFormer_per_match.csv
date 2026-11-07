@@ -1,0 +1,11 @@
+model,source_species,target_species,assay,tissue,n_pairs,auroc,auprc
+DeepFormer,salmon,chicken,ATAC,Liver,24,0.6914710063064656,0.17702629590875796
+DeepFormer,salmon,chicken,ATAC,Muscle,24,0.7339495265648835,0.10162270543635173
+DeepFormer,salmon,chicken,H3K27ac,Liver,16,0.6025888698699186,0.12637799867933483
+DeepFormer,salmon,chicken,H3K27ac,Muscle,16,0.5847933643746379,0.12776651777001932
+DeepFormer,salmon,chicken,H3K27me3,Liver,16,0.585688029166559,0.19865866538345345
+DeepFormer,salmon,chicken,H3K27me3,Muscle,16,0.7138656142357069,0.24089324493422146
+DeepFormer,salmon,chicken,H3K4me1,Liver,16,0.6292699969529502,0.2394400440574915
+DeepFormer,salmon,chicken,H3K4me1,Muscle,16,0.6849778752475489,0.15359733430053785
+DeepFormer,salmon,chicken,H3K4me3,Liver,16,0.5296391635915187,0.099159767873884
+DeepFormer,salmon,chicken,H3K4me3,Muscle,16,0.5789578520293153,0.0940201792614078

@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# created by running the pipeline
+logs/
+analysis/_runs/

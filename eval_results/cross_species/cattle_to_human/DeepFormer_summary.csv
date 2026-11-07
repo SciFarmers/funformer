@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepFormer,cattle,human,14,0.8698772680003058,0.8868918743243547,0.06510824548854241,0.24603665281911566,0.11261248250975965

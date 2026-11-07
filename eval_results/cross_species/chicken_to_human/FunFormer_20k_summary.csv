@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+FunFormer_20k,chicken,human,14,0.8072601337219886,0.8166524883062714,0.06979210834859075,0.2306597670120595,0.11393966006594622

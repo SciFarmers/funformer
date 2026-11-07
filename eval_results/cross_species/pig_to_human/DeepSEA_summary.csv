@@ -1,0 +1,2 @@
+model,source_species,target_species,n_matched,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+DeepSEA,pig,human,14,0.7602006570936913,0.7859318817927317,0.07843972733011238,0.16762755001171095,0.0877410607109554

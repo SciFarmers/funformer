@@ -1,0 +1,2 @@
+exp_name,n_tracks_eval,auroc_mean,auroc_median,auroc_std,auprc_mean,auprc_std
+funformer_pig_len1000_lr5e-4_b500_gac1,80,0.891627923440053,0.8906943598029471,0.05706897756406292,0.37857210526366053,0.1698622738494298

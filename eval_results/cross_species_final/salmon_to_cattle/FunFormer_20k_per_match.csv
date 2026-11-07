@@ -1,0 +1,11 @@
+model,source_species,target_species,assay,tissue,n_pairs,auroc,auprc
+FunFormer_20k,salmon,cattle,ATAC,Liver,24,0.8345189096444173,
+FunFormer_20k,salmon,cattle,ATAC,Muscle,24,0.8463127542643347,
+FunFormer_20k,salmon,cattle,H3K27ac,Liver,16,0.5921721297086002,
+FunFormer_20k,salmon,cattle,H3K27ac,Muscle,16,0.5322807760138193,
+FunFormer_20k,salmon,cattle,H3K27me3,Liver,16,0.5921070235503627,
+FunFormer_20k,salmon,cattle,H3K27me3,Muscle,16,0.7967800473358095,
+FunFormer_20k,salmon,cattle,H3K4me1,Liver,16,0.6067566771328053,
+FunFormer_20k,salmon,cattle,H3K4me1,Muscle,16,0.5173679795253833,
+FunFormer_20k,salmon,cattle,H3K4me3,Liver,16,0.6481157834560767,
+FunFormer_20k,salmon,cattle,H3K4me3,Muscle,16,0.6847655322131295,
